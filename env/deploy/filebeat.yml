@@ -1,0 +1,16 @@
+filebeat:
+  prospectors:
+    -
+      paths:
+        - /var/log/app/*.elog
+      encoding: plain
+      input_type: log
+      fields:
+        lang: python
+    -
+      paths:
+        - /var/log/app/*.log
+      encoding: plain
+      input_type: log
+      fields:
+        lang: python
