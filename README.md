@@ -5,7 +5,7 @@
 This project aims to develop an application to extract a personal identifiable information (PII) from a text file or an input text. 
 
 ## Big Picture 
-![Ransomware](assets/ransomware.jpg)
+![Ransomware](assets/ransomware.JPG)
 
 * In 2020, enterprises lost $21 B from Ransomware. 
 * Every 11 s, there is a ransomware attack. 
