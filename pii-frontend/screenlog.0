@@ -1,0 +1,1460 @@
+[01;32mubuntu@ip-172-31-13-194[00m:[01;34m~/pii-frontend[00m$ 
+[01;32mubuntu@ip-172-31-13-194[00m:[01;34m~/pii-frontend[00m$ 
+[01;32mubuntu@ip-172-31-13-194[00m:[01;34m~/pii-frontend[00m$ ls
+[0m[01;34mclient[0m  [01;34mnode_modules[0m  package-lock.json  package.json  screenlog.0  server.js
+[01;32mubuntu@ip-172-31-13-194[00m:[01;34m~/pii-frontend[00m$ screen -ls
+There are screens on:
+	7622.pts-3.ip-172-31-13-194	(02/01/22 19:05:08)	(Attached)
+	7598.frontend-server	(02/01/22 19:04:45)	(Attached)
+	7584.pts-3.ip-172-31-13-194	(02/01/22 19:04:12)	(Detached)
+3 Sockets in /run/screen/S-ubuntu.
+[01;32mubuntu@ip-172-31-13-194[00m:[01;34m~/pii-frontend[00m$ screen -S fon[K[Krontend-client
+[!p[?3;4l[4l>[?1049h[22;0;0t[4l[?1h=[0m(B[1;40r[H[2J[H[2Jubuntu@ip-172-31-13-194:~/pii-frontend$ ls
+[1m[34mclient[0m  [1m[34mnode_modules[0m  package-lock.json  package.json  screenlog.0  server.js
+ubuntu@ip-172-31-13-194:~/pii-frontend$ 
+ubuntu@ip-172-31-13-194:~/pii-frontend$ 
+ubuntu@ip-172-31-13-194:~/pii-frontend$ 
+ubuntu@ip-172-31-13-194:~/pii-frontend$ ls
+[1m[34mclient[0m  [1m[34mnode_modules[0m  package-lock.json  package.json  screenlog.0  server.js
+ubuntu@ip-172-31-13-194:~/pii-frontend$ cd client/
+ubuntu@ip-172-31-13-194:~/pii-frontend/client$ npm start
+
+> client@0.1.0 start /home/ubuntu/pii-frontend/client
+> react-scripts start
+
+
+
+
+(node:7671) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:7671) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+[H[2J[21B[J[H[36mStarting the development server...[39m
+[36m[39m
+[H[2J
+
+[J[H[32mCompiled successfully![39m
+
+You can now view [1mclient[0m in the browser.
+
+  [1mLocal:[0m            http://localhost:[1m3000[0m
+  [1mOn Your Network:[0m  http://172.31.13.194:[1m3000[0m
+
+Note that the development build is not optimized.
+To create a production build, use [36mnpm run build[39m.
+
+assets by path [1m[32mstatic/[39m[0m 1.5 MiB
+  asset [1m[32mstatic/js/bundle.js[39m[0m 1.49 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+  asset [1m[32mstatic/js/node_modules_web-vitals_dist_web-vitals_js.chunk.js[39m[0m 6.92 KiB [1m[32m[emitted][39m[0m 1 related asset
+  asset [1m[32mstatic/media/loader.b76cabe4e318296c9fc24e9ddba7c43c.svg[39m[0m 3.33 KiB [1m[32m[emitted][39m[0m (auxiliary name: main)
+asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+asset [1m[32masset-manifest.json[39m[0m 550 bytes [1m[32m[emitted][39m[0m
+cached modules 1.38 MiB [1m[32m[cached][39m[0m 107 modules
+runtime modules 31.3 KiB 15 modules
+webpack 5.68.0 compiled [1m[32msuccessfully[39m[0m in 2060 ms
+[H[2J[19B[J[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 80:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.51 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.51 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.49 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.3d18f2d578277f28be70.hot-update.js[39m[0m 13.1 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.3d18f2d578277f28be70.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.51 MiB (1.52 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.49 MiB [1m[32mmain.3d18f2d578277f28be70.hot-update.js[39m[0m 13.1 KiB 3 auxiliary assets
+cached modules 1.37 MiB [1m[32m[cached][39m[0m 106 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 10.2 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 80:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 3095 ms
+[31mProxy error:[39m Could not proxy request [36m/pii[39m from [36m54.184.187.125:3000[39m to [36mhttp://localhost:5000[39m.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information ([36mECONNRESET[39m).
+
+[31mProxy error:[39m Could not proxy request [36m/pii[39m from [36m54.184.187.125:3000[39m to [36mhttp://localhost:5000[39m.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information ([36mECONNRESET[39m).
+
+[31mProxy error:[39m Could not proxy request [36m/pii[39m from [36m54.184.187.125:3000[39m to [36mhttp://localhost:5000[39m.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information ([36mECONNRESET[39m).
+
+[31mProxy error:[39m Could not proxy request [36m/pii[39m from [36m54.184.187.125:3000[39m to [36mhttp://localhost:5000[39m.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information ([36mECONNRESET[39m).
+
+[H[2J[38B[J[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 80:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 1.5 MiB [1m[32m[cached][39m[0m 3 assets
+assets by path [1m[32m.[39m[0m 2.21 KiB
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+  asset [1m[32masset-manifest.json[39m[0m 550 bytes [1m[32m[emitted][39m[0m
+cached modules 1.37 MiB (javascript) 31.3 KiB (runtime) [1m[32m[cached][39m[0m 121 modules
+[1m./src/App.js[0m 10.2 KiB [1m[33m[built][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 80:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 467 ms
+[H[2J[19B[J[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 80:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.51 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.5 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.49 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.d557ffc1b57aada3cd77.hot-update.js[39m[0m 8.46 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.d557ffc1b57aada3cd77.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.5 MiB (1.52 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.49 MiB [1m[32mmain.d557ffc1b57aada3cd77.hot-update.js[39m[0m 8.46 KiB 3 auxiliary assets
+cached modules 1.37 MiB [1m[32m[cached][39m[0m 106 modules
+runtime modules 31.3 KiB 15 modules
+./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js![1m./src/App.css[0m 6.09 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 80:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 810 ms
+[H[2J[27B[J[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 82:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.51 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.51 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.49 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.b527a4757b3f51d5ca92.hot-update.js[39m[0m 13.1 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.b527a4757b3f51d5ca92.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.51 MiB (1.52 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.49 MiB [1m[32mmain.b527a4757b3f51d5ca92.hot-update.js[39m[0m 13.1 KiB 3 auxiliary assets
+cached modules 1.37 MiB [1m[32m[cached][39m[0m 106 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 10.2 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 82:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 882 ms
+[H[2J[26B[J[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 82:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.51 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.51 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.49 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.2d41a3b6fb1bc393514f.hot-update.js[39m[0m 13.1 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.2d41a3b6fb1bc393514f.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.51 MiB (1.52 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.49 MiB [1m[32mmain.2d41a3b6fb1bc393514f.hot-update.js[39m[0m 13.1 KiB 3 auxiliary assets
+cached modules 1.37 MiB [1m[32m[cached][39m[0m 106 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 10.2 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 82:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 820 ms
+[H[2J[26B[J[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 86:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.51 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.51 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.49 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.071e827e74533bbc1816.hot-update.js[39m[0m 13.2 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.071e827e74533bbc1816.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.51 MiB (1.52 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.49 MiB [1m[32mmain.071e827e74533bbc1816.hot-update.js[39m[0m 13.2 KiB 3 auxiliary assets
+cached modules 1.37 MiB [1m[32m[cached][39m[0m 106 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 10.3 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 86:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 727 ms
+[H[2J[26B[J[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 86:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.51 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.5 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.49 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.434ebddac7848675f7ba.hot-update.js[39m[0m 8.53 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.434ebddac7848675f7ba.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.5 MiB (1.52 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.49 MiB [1m[32mmain.434ebddac7848675f7ba.hot-update.js[39m[0m 8.53 KiB 3 auxiliary assets
+cached modules 1.37 MiB [1m[32m[cached][39m[0m 106 modules
+runtime modules 31.3 KiB 15 modules
+./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js![1m./src/App.css[0m 6.15 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 86:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 210 ms
+[H[2J[27B[J[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 86:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.51 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.51 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.49 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.b199e12234d44823b0a9.hot-update.js[39m[0m 13.3 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.b199e12234d44823b0a9.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.51 MiB (1.52 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.49 MiB [1m[32mmain.b199e12234d44823b0a9.hot-update.js[39m[0m 13.3 KiB 3 auxiliary assets
+cached modules 1.37 MiB [1m[32m[cached][39m[0m 106 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 10.4 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 86:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 738 ms
+[H[2J[26B[J[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 86:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.51 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.51 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.5 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.27a6d90b96ef90c6f2b3.hot-update.js[39m[0m 13.9 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.27a6d90b96ef90c6f2b3.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.51 MiB (1.53 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.5 MiB [1m[32mmain.27a6d90b96ef90c6f2b3.hot-update.js[39m[0m 13.9 KiB 3 auxiliary assets
+cached modules 1.37 MiB [1m[32m[cached][39m[0m 106 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 11 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 86:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 894 ms
+[H[2J[26B[J[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 86:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.51 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.51 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.5 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.72d4aea63439e147e952.hot-update.js[39m[0m 13.9 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.72d4aea63439e147e952.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.51 MiB (1.53 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.5 MiB [1m[32mmain.72d4aea63439e147e952.hot-update.js[39m[0m 13.9 KiB 3 auxiliary assets
+cached modules 1.37 MiB [1m[32m[cached][39m[0m 106 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 11 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 86:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 771 ms
+[H[2J[26B[J[HCompiling...
+[H[2J
+[J[H[31mFailed to compile.[39m
+[31m[39m
+src/App.js
+  [1mLine 101:15:[0m  '$' is not defined  [31m[4mno-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.51 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.51 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.5 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.a1bfd734a0528ed4efa1.hot-update.js[39m[0m 13.9 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.a1bfd734a0528ed4efa1.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.51 MiB (1.53 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.5 MiB [1m[32mmain.a1bfd734a0528ed4efa1.hot-update.js[39m[0m 13.9 KiB 3 auxiliary assets
+cached modules 1.37 MiB [1m[32m[cached][39m[0m 106 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 11 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 86:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+[1m[31mERROR[39m[0m in src/App.js
+  [1mLine 101:15:[0m  '$' is not defined  [31m[4mno-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+
+webpack 5.68.0 compiled with [1m[31m1 error[39m[0m and [1m[33m1 warning[39m[0m in 895 ms
+[H[2J[29B[J[HCompiling...
+[H[2J
+[J[H[31mFailed to compile.[39m
+[31m[39m
+src/App.js
+  [1mLine 110:25:[0m  'HTML' is not defined    [31m[4mno-undef[24m[39m
+  [1mLine 110:30:[0m  'render' is not defined  [31m[4mno-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.51 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.51 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.5 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.d771fb3d784efc89f742.hot-update.js[39m[0m 14 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.d771fb3d784efc89f742.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.51 MiB (1.53 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.5 MiB [1m[32mmain.d771fb3d784efc89f742.hot-update.js[39m[0m 14 KiB 3 auxiliary assets
+cached modules 1.37 MiB [1m[32m[cached][39m[0m 106 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 11.1 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 86:14:[0m   'i' is already defined                         [33m[4mno-redeclare[24m[39m
+  [1mLine 100:9:[0m   'newHTML' is assigned a value but never used   [33m[4mno-unused-vars[24m[39m
+  [1mLine 103:11:[0m  'rendered' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+[1m[31mERROR[39m[0m in src/App.js
+  [1mLine 110:25:[0m  'HTML' is not defined    [31m[4mno-undef[24m[39m
+  [1mLine 110:30:[0m  'render' is not defined  [31m[4mno-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+
+webpack 5.68.0 compiled with [1m[31m1 error[39m[0m and [1m[33m1 warning[39m[0m in 884 ms
+[H[2J[33B[J[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 86:14:[0m  'i' is already defined                        [33m[4mno-redeclare[24m[39m
+  [1mLine 100:9:[0m  'newHTML' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.51 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.51 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.5 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.863e0493ee6c307b4ee4.hot-update.js[39m[0m 13.9 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.863e0493ee6c307b4ee4.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.51 MiB (1.53 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.5 MiB [1m[32mmain.863e0493ee6c307b4ee4.hot-update.js[39m[0m 13.9 KiB 3 auxiliary assets
+cached modules 1.37 MiB [1m[32m[cached][39m[0m 106 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 11 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 86:14:[0m  'i' is already defined                        [33m[4mno-redeclare[24m[39m
+  [1mLine 100:9:[0m  'newHTML' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 389 ms
+[H[2J[28B[J[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 86:14:[0m  'i' is already defined                        [33m[4mno-redeclare[24m[39m
+  [1mLine 100:9:[0m  'newHTML' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.51 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.51 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.5 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.078957806966d8321e46.hot-update.js[39m[0m 14 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.078957806966d8321e46.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.51 MiB (1.53 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.5 MiB [1m[32mmain.078957806966d8321e46.hot-update.js[39m[0m 14 KiB 3 auxiliary assets
+cached modules 1.37 MiB [1m[32m[cached][39m[0m 106 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 11.1 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 86:14:[0m  'i' is already defined                        [33m[4mno-redeclare[24m[39m
+  [1mLine 100:9:[0m  'newHTML' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 424 ms
+[H[2J[28B[J[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 86:14:[0m  'i' is already defined                        [33m[4mno-redeclare[24m[39m
+  [1mLine 100:9:[0m  'newHTML' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.51 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.51 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.5 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.11c2d5a8cb608d9c4f21.hot-update.js[39m[0m 14 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.11c2d5a8cb608d9c4f21.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.51 MiB (1.53 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.5 MiB [1m[32mmain.11c2d5a8cb608d9c4f21.hot-update.js[39m[0m 14 KiB 3 auxiliary assets
+cached modules 1.37 MiB [1m[32m[cached][39m[0m 106 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 11.1 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 86:14:[0m  'i' is already defined                        [33m[4mno-redeclare[24m[39m
+  [1mLine 100:9:[0m  'newHTML' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 360 ms
+[H[2J[28B[J[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 86:14:[0m  'i' is already defined                        [33m[4mno-redeclare[24m[39m
+  [1mLine 100:9:[0m  'newHTML' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.51 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.51 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.5 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.adbc766b883b290f7f98.hot-update.js[39m[0m 14.1 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.adbc766b883b290f7f98.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.51 MiB (1.53 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.5 MiB [1m[32mmain.adbc766b883b290f7f98.hot-update.js[39m[0m 14.1 KiB 3 auxiliary assets
+cached modules 1.37 MiB [1m[32m[cached][39m[0m 106 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 11.2 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 86:14:[0m  'i' is already defined                        [33m[4mno-redeclare[24m[39m
+  [1mLine 100:9:[0m  'newHTML' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 445 ms
+[H[2J[28B[J[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 86:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.51 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.51 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.5 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.95e010612d2a8efb2f06.hot-update.js[39m[0m 14.1 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.95e010612d2a8efb2f06.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.51 MiB (1.53 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.5 MiB [1m[32mmain.95e010612d2a8efb2f06.hot-update.js[39m[0m 14.1 KiB 3 auxiliary assets
+cached modules 1.37 MiB [1m[32m[cached][39m[0m 106 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 11.2 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 86:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 494 ms
+[H[2J[26B[J[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 86:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.51 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.51 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.5 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.6737f704cf60e1ee4a7c.hot-update.js[39m[0m 14 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.6737f704cf60e1ee4a7c.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.51 MiB (1.53 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.5 MiB [1m[32mmain.6737f704cf60e1ee4a7c.hot-update.js[39m[0m 14 KiB 3 auxiliary assets
+cached modules 1.37 MiB [1m[32m[cached][39m[0m 106 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 11.1 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 86:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 580 ms
+[H[2J[26B[J[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 86:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.51 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.51 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.5 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.8c2f711be4b4f800cf15.hot-update.js[39m[0m 14.3 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.8c2f711be4b4f800cf15.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.51 MiB (1.53 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.5 MiB [1m[32mmain.8c2f711be4b4f800cf15.hot-update.js[39m[0m 14.3 KiB 3 auxiliary assets
+cached modules 1.37 MiB [1m[32m[cached][39m[0m 106 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 11.3 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 86:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 527 ms
+[H[2J[26B[J[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 86:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.51 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.51 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.5 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.5a4b9710180c036ac082.hot-update.js[39m[0m 14.2 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.5a4b9710180c036ac082.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.51 MiB (1.53 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.5 MiB [1m[32mmain.5a4b9710180c036ac082.hot-update.js[39m[0m 14.2 KiB 3 auxiliary assets
+cached modules 1.37 MiB [1m[32m[cached][39m[0m 106 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 11.3 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 86:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 306 ms
+[H[2J[26B[J[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 86:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.5 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.5 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.5 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.9b0d264b33ac531b38e8.hot-update.js[39m[0m 357 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.9b0d264b33ac531b38e8.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.5 MiB (1.52 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.5 MiB [1m[32mmain.9b0d264b33ac531b38e8.hot-update.js[39m[0m 357 bytes 3 auxiliary assets
+cached modules 1.38 MiB [1m[32m[cached][39m[0m 107 modules
+runtime modules 31.3 KiB 15 modules
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 86:14:[0m  'i' is already defined  [33m[4mno-redeclare[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 602 ms
+[H[2J[25B[J[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 5:10:[0m    'exportFile' is defined but never used                                                                                                                                                                                                                                                                                                                                    [33m[4mno-unused-vars[24m[39m
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                                    [33m[4mno-redeclare[24m[39m
+  [1mLine 130:14:[0m  'output' is assigned a value but never used                                                                                                                                                                                                                                                                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 162:21:[0m  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.64 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.64 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.c9c8faff13434b9e48a8.hot-update.js[39m[0m 80.5 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.c9c8faff13434b9e48a8.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.64 MiB (1.66 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32mmain.c9c8faff13434b9e48a8.hot-update.js[39m[0m 80.5 KiB 3 auxiliary assets
+cached modules 1.37 MiB [1m[32m[cached][39m[0m 106 modules
+runtime modules 31.3 KiB 15 modules
+javascript modules 63.8 KiB
+  modules by path [1m./node_modules/axios/lib/[0m 48.2 KiB 28 modules
+  modules by path [1m./node_modules/fs-browsers/[0m 2.76 KiB
+    modules by path [1m./node_modules/fs-browsers/lib/export-to-file/*.js[0m 2.1 KiB
+      [1m./node_modules/fs-browsers/lib/export-to-file/exportToFile.js[0m 2.02 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+      [1m./node_modules/fs-browsers/lib/export-to-file/fileTypes.js[0m 83 bytes [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+    [1m./node_modules/fs-browsers/bin/index.js[0m 337 bytes [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+    [1m./node_modules/fs-browsers/lib/download-file/downloadFile.js[0m 338 bytes [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+  [1m./src/App.js[0m 11.7 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+  [1m./node_modules/export-to-excel.js/index.js[0m 1.16 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+  [1m./node_modules/axios/index.js[0m 40 bytes [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 5:10:[0m    'exportFile' is defined but never used                                                                                                                                                                                                                                                                                                                                    [33m[4mno-unused-vars[24m[39m
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                                    [33m[4mno-redeclare[24m[39m
+  [1mLine 130:14:[0m  'output' is assigned a value but never used                                                                                                                                                                                                                                                                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 162:21:[0m  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 1414 ms
+[H[2J[39B[K[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                                    [33m[4mno-redeclare[24m[39m
+  [1mLine 163:21:[0m  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.58 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.58 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.2786ba1bb1ab8c69f3b8.hot-update.js[39m[0m 15.1 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.2786ba1bb1ab8c69f3b8.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.58 MiB (1.59 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32mmain.2786ba1bb1ab8c69f3b8.hot-update.js[39m[0m 15.1 KiB 3 auxiliary assets
+cached modules 1.42 MiB [1m[32m[cached][39m[0m 140 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 11.7 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                                    [33m[4mno-redeclare[24m[39m
+  [1mLine 163:21:[0m  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 931 ms
+[H[2J[36B[J[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                                    [33m[4mno-redeclare[24m[39m
+  [1mLine 163:21:[0m  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.58 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.58 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.1e8559cb110d58d88c46.hot-update.js[39m[0m 15.1 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.1e8559cb110d58d88c46.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.58 MiB (1.59 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32mmain.1e8559cb110d58d88c46.hot-update.js[39m[0m 15.1 KiB 3 auxiliary assets
+cached modules 1.42 MiB [1m[32m[cached][39m[0m 140 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 11.8 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                                    [33m[4mno-redeclare[24m[39m
+  [1mLine 163:21:[0m  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 391 ms
+[H[2J[36B[J[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                                    [33m[4mno-redeclare[24m[39m
+  [1mLine 163:21:[0m  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 1.57 MiB [1m[32m[cached][39m[0m 3 assets
+assets by path [1m[32m.[39m[0m 2.21 KiB
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+  asset [1m[32masset-manifest.json[39m[0m 550 bytes [1m[32m[emitted][39m[0m
+cached modules 1.42 MiB (javascript) 31.3 KiB (runtime) [1m[32m[cached][39m[0m 155 modules
+[1m./src/App.js[0m 11.8 KiB [1m[33m[built][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                                    [33m[4mno-redeclare[24m[39m
+  [1mLine 163:21:[0m  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 216 ms
+[H[2J[29B[J[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                                    [33m[4mno-redeclare[24m[39m
+  [1mLine 163:21:[0m  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.57 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.57 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.35b21194151d55116c30.hot-update.js[39m[0m 8.88 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.35b21194151d55116c30.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.57 MiB (1.59 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32mmain.35b21194151d55116c30.hot-update.js[39m[0m 8.88 KiB 3 auxiliary assets
+cached modules 1.43 MiB [1m[32m[cached][39m[0m 140 modules
+runtime modules 31.3 KiB 15 modules
+./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js![1m./src/App.css[0m 6.5 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                                    [33m[4mno-redeclare[24m[39m
+  [1mLine 163:21:[0m  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 384 ms
+[H[2J[37B[J[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 163:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.58 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.58 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.a707c750bcc48f6c7edd.hot-update.js[39m[0m 15.1 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.a707c750bcc48f6c7edd.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.58 MiB (1.59 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32mmain.a707c750bcc48f6c7edd.hot-update.js[39m[0m 15.1 KiB 3 auxiliary assets
+cached modules 1.42 MiB [1m[32m[cached][39m[0m 140 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 11.8 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 163:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 394 ms
+[H[2J[36B[J[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 168:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 199:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.58 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.58 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.d42c9782c68c00f8ed6c.hot-update.js[39m[0m 15.9 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.d42c9782c68c00f8ed6c.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.58 MiB (1.59 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32mmain.d42c9782c68c00f8ed6c.hot-update.js[39m[0m 15.9 KiB 3 auxiliary assets
+cached modules 1.42 MiB [1m[32m[cached][39m[0m 140 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 12.4 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 168:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 199:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 482 ms
+[H[2J[39B[K[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 130:14:[0m  'output' is assigned a value but never used                                                                                                                                                                                                                                                                                                                        [33m[4mno-unused-vars[24m[39m
+  [1mLine 168:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 199:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.58 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.58 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.f7a86b7893193793483d.hot-update.js[39m[0m 15.9 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.f7a86b7893193793483d.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.58 MiB (1.59 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32mmain.f7a86b7893193793483d.hot-update.js[39m[0m 15.9 KiB 3 auxiliary assets
+cached modules 1.42 MiB [1m[32m[cached][39m[0m 140 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 12.4 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 130:14:[0m  'output' is assigned a value but never used                                                                                                                                                                                                                                                                                                                        [33m[4mno-unused-vars[24m[39m
+  [1mLine 168:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 199:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 874 ms
+[H[2J[39B[K[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 130:14:[0m  'output' is assigned a value but never used                                                                                                                                                                                                                                                                                                                        [33m[4mno-unused-vars[24m[39m
+  [1mLine 168:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 170:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+  [1mLine 199:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 201:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.58 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.58 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.186cb0944317696ab320.hot-update.js[39m[0m 15.9 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.186cb0944317696ab320.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.58 MiB (1.59 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32mmain.186cb0944317696ab320.hot-update.js[39m[0m 15.9 KiB 3 auxiliary assets
+cached modules 1.42 MiB [1m[32m[cached][39m[0m 140 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 12.5 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 130:14:[0m  'output' is assigned a value but never used                                                                                                                                                                                                                                                                                                                        [33m[4mno-unused-vars[24m[39m
+  [1mLine 168:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 170:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+  [1mLine 199:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 201:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 570 ms
+[H[2J[39B[K[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 169:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 171:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+  [1mLine 200:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 202:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.58 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.58 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.bbc8b618681906d86990.hot-update.js[39m[0m 16 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.bbc8b618681906d86990.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.58 MiB (1.59 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32mmain.bbc8b618681906d86990.hot-update.js[39m[0m 16 KiB 3 auxiliary assets
+cached modules 1.42 MiB [1m[32m[cached][39m[0m 140 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 12.5 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 169:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 171:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+  [1mLine 200:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 202:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 439 ms
+[H[2J[39B[K[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 169:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 171:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+  [1mLine 200:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 202:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.58 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.58 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.a4de46dcf9ecf4adf459.hot-update.js[39m[0m 16 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.a4de46dcf9ecf4adf459.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.58 MiB (1.59 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32mmain.a4de46dcf9ecf4adf459.hot-update.js[39m[0m 16 KiB 3 auxiliary assets
+cached modules 1.42 MiB [1m[32m[cached][39m[0m 140 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 12.5 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 169:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 171:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+  [1mLine 200:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 202:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 920 ms
+[H[2J[39B[K[HCompiling...
+[H[2J
+[J[H[31mFailed to compile.[39m
+[31m[39m
+src/App.js
+  [1mLine 142:29:[0m  'finding' is not defined  [31m[4mno-undef[24m[39m
+  [1mLine 142:46:[0m  'finding' is not defined  [31m[4mno-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.58 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.58 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.7a718d90d93192199651.hot-update.js[39m[0m 16.2 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.7a718d90d93192199651.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.58 MiB (1.59 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32mmain.7a718d90d93192199651.hot-update.js[39m[0m 16.2 KiB 3 auxiliary assets
+cached modules 1.42 MiB [1m[32m[cached][39m[0m 140 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 12.7 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 177:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 179:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+  [1mLine 208:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 210:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+
+[1m[31mERROR[39m[0m in src/App.js
+  [1mLine 142:29:[0m  'finding' is not defined  [31m[4mno-undef[24m[39m
+  [1mLine 142:46:[0m  'finding' is not defined  [31m[4mno-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+
+webpack 5.68.0 compiled with [1m[31m1 error[39m[0m and [1m[33m1 warning[39m[0m in 949 ms
+[H[2J[39B[K[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 177:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 179:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+  [1mLine 208:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 210:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.58 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.58 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.70c468a8770c43cc17d8.hot-update.js[39m[0m 16.2 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.70c468a8770c43cc17d8.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.58 MiB (1.59 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32mmain.70c468a8770c43cc17d8.hot-update.js[39m[0m 16.2 KiB 3 auxiliary assets
+cached modules 1.42 MiB [1m[32m[cached][39m[0m 140 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 12.7 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 177:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 179:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+  [1mLine 208:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 210:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 380 ms
+[H[2J[39B[K[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 178:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 180:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+  [1mLine 209:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 211:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.58 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.58 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.18b0b365aaa351dd6edd.hot-update.js[39m[0m 16.2 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.18b0b365aaa351dd6edd.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.58 MiB (1.59 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32mmain.18b0b365aaa351dd6edd.hot-update.js[39m[0m 16.2 KiB 3 auxiliary assets
+cached modules 1.42 MiB [1m[32m[cached][39m[0m 140 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 12.7 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 178:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 180:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+  [1mLine 209:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 211:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 548 ms
+[H[2J[39B[K[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 179:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 181:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+  [1mLine 210:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 212:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.58 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.58 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.499d6d58ad45cc2e159e.hot-update.js[39m[0m 16.3 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.499d6d58ad45cc2e159e.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.58 MiB (1.59 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32mmain.499d6d58ad45cc2e159e.hot-update.js[39m[0m 16.3 KiB 3 auxiliary assets
+cached modules 1.42 MiB [1m[32m[cached][39m[0m 140 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 12.8 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 179:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 181:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+  [1mLine 210:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 212:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 777 ms
+[H[2J[39B[K[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 178:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 180:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+  [1mLine 209:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 211:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.58 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.58 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.f32c14538f3822ac6b84.hot-update.js[39m[0m 16.2 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.f32c14538f3822ac6b84.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.58 MiB (1.59 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32mmain.f32c14538f3822ac6b84.hot-update.js[39m[0m 16.2 KiB 3 auxiliary assets
+cached modules 1.42 MiB [1m[32m[cached][39m[0m 140 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 12.7 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 178:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 180:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+  [1mLine 209:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 211:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 805 ms
+[H[2J[39B[K[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 182:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 184:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+  [1mLine 213:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 215:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.58 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.58 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.d976eca6c5a7cbd975c1.hot-update.js[39m[0m 16.4 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.d976eca6c5a7cbd975c1.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.58 MiB (1.59 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32mmain.d976eca6c5a7cbd975c1.hot-update.js[39m[0m 16.4 KiB 3 auxiliary assets
+cached modules 1.42 MiB [1m[32m[cached][39m[0m 140 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 12.9 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 182:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 184:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+  [1mLine 213:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 215:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 933 ms
+[H[2J[39B[K[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 182:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 184:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+  [1mLine 213:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 215:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.57 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.57 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.9f631bc7dba4addafe50.hot-update.js[39m[0m 8.94 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.9f631bc7dba4addafe50.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.57 MiB (1.59 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32mmain.9f631bc7dba4addafe50.hot-update.js[39m[0m 8.94 KiB 3 auxiliary assets
+cached modules 1.43 MiB [1m[32m[cached][39m[0m 140 modules
+runtime modules 31.3 KiB 15 modules
+./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js![1m./src/App.css[0m 6.57 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 88:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 182:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 184:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+  [1mLine 213:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 215:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 393 ms
+[H[2J[39B[K[HCompiling...
+[H[2J
+[J[H[31mFailed to compile.[39m
+[31m[39m
+src/App.js
+  [1mLine 91:9:[0m   'replaceHTML' is not defined  [31m[4mno-undef[24m[39m
+  [1mLine 92:41:[0m  'replaceHTML' is not defined  [31m[4mno-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.58 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.58 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.7129057778e383f9ac63.hot-update.js[39m[0m 16.5 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.7129057778e383f9ac63.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.58 MiB (1.59 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32mmain.7129057778e383f9ac63.hot-update.js[39m[0m 16.5 KiB 3 auxiliary assets
+cached modules 1.42 MiB [1m[32m[cached][39m[0m 140 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 13 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 89:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 184:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 186:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+  [1mLine 215:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 217:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+
+[1m[31mERROR[39m[0m in src/App.js
+  [1mLine 91:9:[0m   'replaceHTML' is not defined  [31m[4mno-undef[24m[39m
+  [1mLine 92:41:[0m  'replaceHTML' is not defined  [31m[4mno-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+
+webpack 5.68.0 compiled with [1m[31m1 error[39m[0m and [1m[33m1 warning[39m[0m in 797 ms
+[H[2J[39B[K[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 89:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 184:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 186:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+  [1mLine 215:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 217:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.58 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.58 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.a55d8931ca72dac7ef02.hot-update.js[39m[0m 16.5 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.a55d8931ca72dac7ef02.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.58 MiB (1.59 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32mmain.a55d8931ca72dac7ef02.hot-update.js[39m[0m 16.5 KiB 3 auxiliary assets
+cached modules 1.42 MiB [1m[32m[cached][39m[0m 140 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 13 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 89:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 184:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 186:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+  [1mLine 215:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 217:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 397 ms
+[H[2J[39B[K[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 89:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 185:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 187:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+  [1mLine 216:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 218:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.58 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.58 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.51f5429473c18fbc5b60.hot-update.js[39m[0m 16.5 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.51f5429473c18fbc5b60.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.58 MiB (1.59 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32mmain.51f5429473c18fbc5b60.hot-update.js[39m[0m 16.5 KiB 3 auxiliary assets
+cached modules 1.42 MiB [1m[32m[cached][39m[0m 140 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 13 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 89:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 185:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 187:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+  [1mLine 216:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 218:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 557 ms
+[H[2J[39B[K[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 89:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 185:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 187:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+  [1mLine 216:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 218:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.57 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.57 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.fe54d501ad69dbf5c4b0.hot-update.js[39m[0m 9.02 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.fe54d501ad69dbf5c4b0.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.57 MiB (1.59 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32mmain.fe54d501ad69dbf5c4b0.hot-update.js[39m[0m 9.02 KiB 3 auxiliary assets
+cached modules 1.43 MiB [1m[32m[cached][39m[0m 140 modules
+runtime modules 31.3 KiB 15 modules
+./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js![1m./src/App.css[0m 6.64 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 89:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 185:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 187:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+  [1mLine 216:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 218:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 368 ms
+[H[2J[39B[K[HCompiling...
+[H[2J
+[J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/App.js
+  [1mLine 89:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 185:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 187:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+  [1mLine 216:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 218:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+assets by status 10.2 KiB [1m[32m[cached][39m[0m 2 assets
+assets by status 1.58 MiB [1m[32m[emitted][39m[0m
+  assets by chunk 1.58 MiB (name: main)
+    asset [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32m[emitted][39m[0m (name: main) 1 related asset
+    asset [1m[32mmain.d429890067fb55dcf316.hot-update.js[39m[0m 16.5 KiB [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m (name: main) 1 related asset
+  assets by path [1m[32m*.json[39m[0m 703 bytes
+    asset [1m[32masset-manifest.json[39m[0m 675 bytes [1m[32m[emitted][39m[0m
+    asset [1m[32mmain.d429890067fb55dcf316.hot-update.json[39m[0m 28 bytes [1m[32m[emitted][39m[0m [1m[32m[immutable][39m[0m [1m[32m[hmr][39m[0m
+  asset [1m[32mindex.html[39m[0m 1.67 KiB [1m[32m[emitted][39m[0m
+Entrypoint [1mmain[0m 1.58 MiB (1.59 MiB) = [1m[32mstatic/js/bundle.js[39m[0m 1.56 MiB [1m[32mmain.d429890067fb55dcf316.hot-update.js[39m[0m 16.5 KiB 3 auxiliary assets
+cached modules 1.42 MiB [1m[32m[cached][39m[0m 140 modules
+runtime modules 31.3 KiB 15 modules
+[1m./src/App.js[0m 13 KiB [1m[33m[built][39m[0m [1m[33m[code generated][39m[0m
+
+[1m[33mWARNING[39m[0m in src/App.js
+  [1mLine 89:14:[0m   'i' is already defined                                                                                                                                                                                                                                                                                                                                             [33m[4mno-redeclare[24m[39m
+  [1mLine 185:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 187:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+  [1mLine 216:21:[0m  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  [33m[4mjsx-a11y/anchor-is-valid[24m[39m
+  [1mLine 218:30:[0m  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                       [33m[4mno-script-url[24m[39m
+
+webpack 5.68.0 compiled with [1m[33m1 warning[39m[0m in 705 ms
