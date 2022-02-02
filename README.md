@@ -23,9 +23,10 @@ This project aims to develop an application to extract a personal identifiable i
  a text file or an input text.
 
 ## Impact
-Data Governance and security is a critical requirement for an multi-cloud infrastructure
-## Demo
+Data Governance and security is a critical requirement for an multi-cloud infrastructure.
 
+## Demo
+[Demo Link](http://54.184.187.125:3000/)
 
 
 ## Introduction
