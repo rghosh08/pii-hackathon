@@ -212,7 +212,7 @@ state = {
         <div className="container findings">
             <div className="text-container">
                 <div className="text-container-title">
-                    <div>Findings</div>
+                    <div>Discovery</div>
                     <a
                         className="export"
                         href="javascript:;"
